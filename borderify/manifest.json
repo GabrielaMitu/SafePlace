@@ -1,0 +1,26 @@
+{
+
+    "manifest_version": 2,
+    "name": "safePlace",
+    "version": "1.0",
+    "permissions": ["cookies","<all_urls>","tabs", "storage"],
+  
+    "description": "Makes your browser a safe place",
+  
+    "icons": {
+      "48": "icons/SafePlaceIcon.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["safePlace.js"]
+      }
+    ],
+    "browser_action": {
+      "default_title": "SafePlace",
+      "default_popup": "extension.html"
+    }
+  
+  }
+  

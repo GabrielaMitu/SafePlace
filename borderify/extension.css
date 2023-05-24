@@ -1,0 +1,31 @@
+
+body {
+  padding: 20px;
+  background-color: rgb(255, 240, 166);
+}
+
+
+h1 {
+  font-family: titleFont;
+  color:rgb(255, 72, 158);
+  padding-top: 10px;
+  border-bottom: 1px solid rgb(255, 72, 158);
+}
+
+b {
+  color: rgb(255, 113, 179);
+  font-family: titleFont;
+  font-size: larger;
+}
+
+#sessionstorage-size, #numCookies, #localstorage-size, #number-3rd  {
+  display: inline-block;
+  color: rgb(255, 113, 179) !important;
+  font-family: titleFont;
+  font-size: larger;
+}
+
+p, div {
+  font-family: terminalFont;
+  color: rgb(255, 126, 83);
+}
